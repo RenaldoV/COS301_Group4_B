@@ -1,0 +1,26 @@
+\section{Architectural Responsibilities}
+\subsection{Persistence Infrastructure}
+
+
+\begin{itemize}
+\item As per the client requirements, some of the textual data generated or used in the buzz system will be maintained through persistent storage like a relational database. All media files and documents will then be stored on a separate directory on the server.
+\item The buzz system will also make use of LDAP (CS databases). So the CS databases have to share resources (cross-origin resource sharing) with the buzz system.
+\end{itemize}
+
+
+\subsection{Reporting Infrastructure}
+
+\begin{itemize}
+\item Send daily email notification to contributors of a thread
+\item Send instant email notifications to 
+	\begin{itemize} 
+	\item Owner of a thread or post when a thread/post is \\
+		\begin{itemize} 
+			\item Updated 
+			\item Deleted 
+			\item Received a reply
+			\item Referenced 	
+		\end{itemize}
+	\end{itemize}
+
+\end{itemize}
