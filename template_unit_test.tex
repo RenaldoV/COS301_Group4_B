@@ -1,0 +1,34 @@
+\documentclass[pdftex,10pt,a4paper]{report}
+
+	\usepackage[pdftex]{graphicx}
+	\usepackage[textwidth = 200mm,margin = 15mm]{geometry}
+	\usepackage{hyperref}
+
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+	\setcounter{secnumdepth}{5}
+	
+\begin{document}
+
+\include{title}
+
+\newpage
+
+\pagenumbering{gobble}
+
+\newpage
+\pagenumbering{roman}
+
+\tableofcontents 
+
+\newpage
+\pagenumbering{arabic}
+
+\begingroup
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
+	\chapter{test chapter}\label{chap:ack}
+		\section{test section}
+		\include{template}
+\endgroup
+	
+\end{document}

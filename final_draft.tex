@@ -1,0 +1,82 @@
+\documentclass[pdftex,10pt,a4paper]{report}
+
+	\usepackage[pdftex]{graphicx}
+	\usepackage[textwidth = 200mm,margin = 15mm]{geometry}
+	\usepackage{hyperref}
+
+	\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\begin{document}
+
+\include{title}
+
+\newpage
+
+\pagenumbering{gobble}
+
+\newpage
+\pagenumbering{roman}
+
+\tableofcontents 
+
+\newpage
+\pagenumbering{arabic}
+
+\begingroup
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
+\chapter{Architecture requirements}
+	\section{Architectural scope}
+		\include{template}
+	\section{Quality requirements}
+		\include{template}
+	\section{Integration and access channel requirements}
+		\include{template}
+	\section{Architectural constraints}
+		\include{template}
+	
+\begingroup
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}	
+\chapter{Architectural patterns or styles}
+	\include{template}
+\endgroup
+
+\newpage
+	
+\begingroup
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
+\chapter{Architectural tactics or strategies}
+	\include{template}
+\endgroup
+
+\newpage
+	
+\begingroup
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}	
+\chapter{Use of reference architectures and frameworks}
+	\include{template}
+\endgroup
+
+\newpage
+
+\begingroup
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
+\chapter{Access and integration channels}
+	\include{template}
+\endgroup
+
+\newpage
+	
+\begingroup
+\renewcommand{\cleardoublepage}{}
+\renewcommand{\clearpage}{}
+\chapter{Technologies}
+	\include{template}
+\endgroup
+	
+\end{document}
+
