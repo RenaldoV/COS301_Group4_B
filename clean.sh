@@ -14,5 +14,5 @@ git rm *.gz
 git rm *.log
 
 git add *
-git commit -m
+git commit
 git push
