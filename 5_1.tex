@@ -1,10 +1,33 @@
-%If working on sections in "1.1 Architecture requirements" only use from subsection downwards
-
-\subsection{asdf}
-	\subsubsection{asdf}
-	
 %If working on sections 1.2 to 1.6 only use from section downwards
 
-\section{asdf}
-	\subsection{asdf}
-		\subsubsection{asdf}
+\section{Access Channels}
+\subsection{Human access channels }
+	\subsubsection{Thin client}
+	All resources need to be downloaded from the server.
+	\subsubsection{Responsive design}
+	User Interface can be scaled according to device/size of the window to ensure readability and usability. E.g. Bootstrap.
+
+	\subsubsection{Software needed}
+-Any modern browser that supports HTML \& JavaScript E.g. Google Chrome, Mozilla Firefox.
+
+
+\subsection{System access channels }
+Other systems will access the system via the API provided as this system will act as a plugin that can be used on any other system that wishes to add a discussion board.
+RESTful will be the main API
+
+\section{Integration Channels}
+	\subsection{Authentication and user list}
+	\begin{itemize}
+		\item LDAP
+		\item MySQL
+		\item PAM Auth
+		\item MongoDB
+		\item SQLite
+		\item Plaintext (text file, csv, etc...)
+	\end{itemize}
+	\subsection{System Access and Integration into existing systems}
+	\begin{itemize}
+		\item iframe adapter
+		\item div adapter
+		\item Plugin by using Buzz API
+	\end{itemize}
