@@ -1,10 +1,33 @@
-%If working on sections in "1.1 Architecture requirements" only use from subsection downwards
-
-\subsection{asdf}
-	\subsubsection{asdf}
-	
 %If working on sections 1.2 to 1.6 only use from section downwards
 
-\section{asdf}
-	\subsection{asdf}
-		\subsubsection{asdf}
+\section{Strategies}
+	\subsection{Scalability}
+		\begin{itemize}
+			\item Addition of system resources
+			\item Store data on client side for less traffic on server
+			\item Loose-coupling sub systems tied together by APIs
+		\end{itemize}
+	\subsection{Maintainability and Audit-ability}
+		\begin{itemize}
+			\item Model-View-Controller Strategy when approaching the user interface for easy maintenance
+			\item Use separate table for the audit log.
+			\item Log all user Activity.
+		\end{itemize}
+	\subsection{Usability}
+		\begin{itemize}
+			\item Model-View-Controller Strategy when approaching the user interface
+			\item Use as many as possible known icons and symbols to bridge the language barrier
+			\item Usability testing by asking non tech-savvy individuals to use the system 
+		\end{itemize}
+	\subsection{Integrability}
+		\begin{itemize}
+			\item Using a separate adapter class/model to make the system 
+			\item Loose-coupling sub systems tied together by APIs to allow easy access from other systems through the APIs
+			\item Using the prototype pattern to create the default database layout with regards to your configuration specifications
+		\end{itemize}
+	\subsection{Security}
+		\begin{itemize}
+			\item Model-View-Controller Strategy when approaching the user interface
+			\item Loose-coupling sub systems tied together by APIs to limit access only to the allowed API calls
+			\item Security testing by running a hacking challenge on the system
+		\end{itemize}
