@@ -1,10 +1,57 @@
-%If working on sections in "1.1 Architecture requirements" only use from subsection downwards
-
-\subsection{asdf}
-	\subsubsection{asdf}
-	
 %If working on sections 1.2 to 1.6 only use from section downwards
 
+\section{Database}
+	\subsection{MongoDB}
+		
+\section{Servers}
+	\subsection{Linux Virtual Servers}
+		For scalability
+		\subsubsection{Application Server}
+		\begin{itemize}
+			\item NginX
+			\item JavaEE
+			\item sshd
+			\item failtoban
+			\item ldap-client
+		\end{itemize}
+		\subsubsection{Distributed File Server}
+		\begin{itemize}
+			\item AFS (Andrew File System)
+			\item sshd
+			\item failtoban
+			\item ldap-client
+		\end{itemize}
+		\subsubsection{Authentication Server}
+		\begin{itemize}
+			\item slapd (LDAP Server)
+			\item sshd
+			\item failtoban
+			\item ldap-client
+		\end{itemize}		
+		\subsubsection{Backup Server}		
+		\begin{itemize}
+			\item amanda (works over ssh)
+			\item sshd
+			\item failtoban
+		\end{itemize}		
+		\subsubsection{Database Server}
+			\begin{itemize}
+				\item MongoDB
+				\item sshd
+				\item failtoban
+				\item ldap-client
+			\end{itemize}
+		\subsubsection{Email Server}
+			\begin{itemize}
+				\item Exim4 (SMTP)
+				\item Courier (IMAP/POP3)
+				\item failtoban
+				\item SpamAssassin
+				\item ldap-client
+			\end{itemize}
+		
 \section{asdf}
 	\subsection{asdf}
-		\subsubsection{asdf}
+
+
+		
