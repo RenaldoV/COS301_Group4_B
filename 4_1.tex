@@ -1,7 +1,28 @@
 %If working on sections 1.2 to 1.6 only use from section downwards
 
 \section{Reference Architectures}
-	\subsection{asdf}
+	\subsection{Java-EE}
+	Java-EE is based on a layered architectural pattern: 
+	\begin{itemize}
+		\item Access Layer
+		\item Business processes layer
+		\item Persistence Layer
+	\end{itemize}
+	\subsubsection{Effect on quality requirements}
+	\begin{itemize}
+		\item Scalability\\
+		Positive effect when reusing resources, caching and clustering. It also allows for load-balancing.
+		\item Maintainability and Audit-ability
+		
+		\item Usability
+		\item Integrability  
+		\item Security
+	\end{itemize}
 
 \section{Frameworks}
-	\subsection{MVC}
+	\subsection{Apache Geronimo}
+	\begin{itemize}
+		\item By using clustering technology to provide a scalable and highly available platform for the system
+		\item Geronimo only provides LDAP viewing capabilities. This enforces security because editing of the LDAP database isn't available.
+		\item Allows for RESTful Web Services
+	\end{itemize}
