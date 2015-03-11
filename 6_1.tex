@@ -1,0 +1,58 @@
+%If working on sections 1.2 to 1.6 only use from section downwards
+
+\section{Database}
+	\subsection{MongoDB}
+		MongoDB is chosen for its ability to store data of any structure. This will make it easy to store whole classes from java. MonoDB is highly scalable and one database can be spread among multiple servers. It is also much faster then a sql based database so it is already highly scalable on just one server. 
+\section{Servers}
+	\subsection{Linux Virtual Servers}
+		For scalability
+		\subsubsection{Application Server}
+		\begin{itemize}
+			\item NginX
+			\item JavaEE
+			\item sshd
+			\item failtoban
+			\item ldap-client
+		\end{itemize}
+		\subsubsection{Distributed Filesystem Server}
+		\begin{itemize}
+			\item AFS (Andrew File System)
+			\item sshd
+			\item failtoban
+			\item ldap-client
+		\end{itemize}
+		\subsubsection{Authentication Server}
+		\begin{itemize}
+			\item Apache Geronimo (Java-EE Framework)
+			\item slapd (LDAP Server)
+			\item sshd
+			\item failtoban
+			\item ldap-client
+		\end{itemize}		
+		\subsubsection{Backup Server}		
+		\begin{itemize}
+			\item amanda (works over ssh)
+			\item sshd
+			\item failtoban
+		\end{itemize}		
+		\subsubsection{Database Server}
+			\begin{itemize}
+				\item MongoDB
+				\item sshd
+				\item failtoban
+				\item ldap-client
+			\end{itemize}
+		\subsubsection{Email Server}
+			\begin{itemize}
+				\item Exim4 (SMTP)
+				\item Courier (IMAP/POP3)
+				\item failtoban
+				\item SpamAssassin
+				\item ldap-client
+			\end{itemize}
+		
+\section{asdf}
+	\subsection{asdf}
+
+
+		
