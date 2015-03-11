@@ -1,0 +1,33 @@
+\contentsline {subsection}{\numberline {1.1.1}Architecture requirements}{1}{subsection.1.1.1}
+\contentsline {subsubsection}{Persistence infrastructure}{1}{section*.2}
+\contentsline {subsection}{\numberline {1.2.1}Quality requirements}{1}{subsection.1.2.1}
+\contentsline {subsubsection}{Critical}{1}{section*.3}
+\contentsline {subsubsection}{Important}{1}{section*.4}
+\contentsline {chapter}{\numberline {1}Architecture requirements}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Architectural scope}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Quality requirements}{1}{section.1.2}
+\contentsline {subsection}{\numberline {1.3.1}Integration and access channel requirements}{2}{subsection.1.3.1}
+\contentsline {subsubsection}{Integration requirements}{2}{section*.5}
+\contentsline {subsubsection}{Access Channels}{2}{section*.6}
+\contentsline {subsection}{\numberline {1.4.1}Reference architecture}{2}{subsection.1.4.1}
+\contentsline {subsubsection}{JavaEE}{2}{section*.7}
+\contentsline {subsubsection}{RESTful}{2}{section*.8}
+\contentsline {subsection}{\numberline {1.4.2}Particular technologies}{2}{subsection.1.4.2}
+\contentsline {subsubsection}{Programming Languages}{2}{section*.9}
+\contentsline {subsubsection}{Framworks}{2}{section*.10}
+\contentsline {subsubsection}{Protocols}{2}{section*.11}
+\contentsline {section}{\numberline {1.3}Integration and access channel requirements}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Architectural constraints}{2}{section.1.4}
+\contentsline {chapter}{\numberline {2}Architectural patterns or styles}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}Architectural tactics or strategies}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Use of reference architectures and frameworks}{6}{chapter.4}
+\contentsline {chapter}{\numberline {5}Access and integration channels}{7}{chapter.5}
+\contentsline {section}{\numberline {6.1}Database}{8}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}MongoDB}{8}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}Servers}{8}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Linux Virtual Servers}{8}{subsection.6.2.1}
+\contentsline {subsubsection}{Application Server}{8}{section*.24}
+\contentsline {subsubsection}{Distributed File Server}{8}{section*.25}
+\contentsline {subsubsection}{Authentication Server}{8}{section*.26}
+\contentsline {subsubsection}{Backup Server}{8}{section*.27}
+\contentsline {chapter}{\numberline {6}Technologies}{8}{chapter.6}

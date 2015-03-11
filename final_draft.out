@@ -1,0 +1,38 @@
+\BOOKMARK [0][-]{chapter.1}{Architecture requirements}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Architectural scope}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Architecture requirements}{section.1.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Quality requirements}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.2.1}{Quality requirements}{section.1.2}% 5
+\BOOKMARK [1][-]{section.1.3}{Integration and access channel requirements}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.3.1}{Integration and access channel requirements}{section.1.3}% 7
+\BOOKMARK [1][-]{section.1.4}{Architectural constraints}{chapter.1}% 8
+\BOOKMARK [2][-]{subsection.1.4.1}{Reference architecture}{section.1.4}% 9
+\BOOKMARK [2][-]{subsection.1.4.2}{Particular technologies}{section.1.4}% 10
+\BOOKMARK [2][-]{subsection.1.4.3}{Operating systems}{section.1.4}% 11
+\BOOKMARK [0][-]{chapter.2}{Architectural patterns or styles}{}% 12
+\BOOKMARK [1][-]{section.2.1}{Architectural patterns}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.1.1}{Loose Coupling}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.2}{Blackboard Pattern}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.3}{Prototype pattern}{section.2.1}% 16
+\BOOKMARK [0][-]{chapter.3}{Architectural tactics or strategies}{}% 17
+\BOOKMARK [1][-]{section.3.1}{Strategies}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.1.1}{Scalability}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.2}{Maintainability and Audit-ability}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.3}{Usability}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.4}{Integrability}{section.3.1}% 22
+\BOOKMARK [2][-]{subsection.3.1.5}{Security}{section.3.1}% 23
+\BOOKMARK [0][-]{chapter.4}{Use of reference architectures and frameworks}{}% 24
+\BOOKMARK [1][-]{subsection.4.0.6}{asdf}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.1}{asdf}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.1.1}{asdf}{section.4.1}% 27
+\BOOKMARK [0][-]{chapter.5}{Access and integration channels}{}% 28
+\BOOKMARK [1][-]{subsection.5.0.2}{asdf}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.1}{asdf}{chapter.5}% 30
+\BOOKMARK [2][-]{subsection.5.1.1}{asdf}{section.5.1}% 31
+\BOOKMARK [0][-]{chapter.6}{Technologies}{}% 32
+\BOOKMARK [1][-]{section.6.1}{Database}{chapter.6}% 33
+\BOOKMARK [2][-]{subsection.6.1.1}{MongoDB}{section.6.1}% 34
+\BOOKMARK [1][-]{section.6.2}{Servers}{chapter.6}% 35
+\BOOKMARK [2][-]{subsection.6.2.1}{Linux Virtual Servers}{section.6.2}% 36
+\BOOKMARK [1][-]{section.6.3}{asdf}{chapter.6}% 37
+\BOOKMARK [2][-]{subsection.6.3.1}{asdf}{section.6.3}% 38
