@@ -21,7 +21,7 @@
  By allowing multiple processes such as creating a root thread or rating a user to work closer together on different threads, polling and reacting if needed so that less time is wasted by running processes in parallel.
 		\subsubsection{Quality Requirements it enforces}
 		\begin{itemize}
-			\item Scalability
+			\item Scalability\\
 It is easy to achieve scalability with the blackboard pattern accross a grid of processors subject to having a scalable implementation of the blackboard itself.
 		\end{itemize}	
 		
@@ -30,7 +30,7 @@ It is easy to achieve scalability with the blackboard pattern accross a grid of 
  			By deep cloning objects to store their data in the audit log if any changes occurred, without keeping a reference to the original data and exposing it.
 		\subsubsection{Quality Requirements it enforces}
 		\begin{itemize}
-			\item Maintainability an Auditability\\
+			\item Maintainability and Auditability\\
 The prototype pattern makes clones of the old values(deep cloning) and then extracts the data needed in the audit trail.
 			\item Security\\
 Because the prototype pattern works on a skeleton based design in some sense it helps with security by limiting manipulation possibilities.
