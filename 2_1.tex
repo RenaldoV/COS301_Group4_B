@@ -22,6 +22,7 @@
 		\subsubsection{Quality Requirements it enforces}
 		\begin{itemize}
 			\item Scalability
+It is easy to achieve scalability with the blackboard pattern accross a grid of processors subject to having a scalable implementation of the blackboard itsself.
 		\end{itemize}	
 		
 	\subsection{Prototype pattern}
@@ -29,6 +30,9 @@
  			By deep cloning objects to store their data in the audit log if any changes occurred, without keeping a reference to the original data and exposing it.
 		\subsubsection{Quality Requirements it enforces}
 		\begin{itemize}
-			\item Maintainability
+			\item Maintainability an Auditability
+The prototype pattern makes clones of the old values(deep cloning) and then extracts the data needit in the audit trail.
 			\item Security
+Beacause the prototype pattern works on a sceleton based design in some sense it helps with security by limiting manipulation possibilities.
+
 		\end{itemize}	
